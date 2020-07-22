@@ -1,0 +1,142 @@
+/* header */
+
+header .heading{
+    background: #32d296;
+}
+
+header .contacts{
+    justify-content: center;
+    padding: 20px;
+}
+
+header .contacts i{
+    margin-right: 50px;
+    color: #080808;
+}
+
+header .navigation{
+    display: flex;
+    justify-content: space-around;
+}
+
+header .navigation .nav-menu{
+    width: 800px;
+    padding-top: 15px;
+}
+
+header .navigation .nav-menu .menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+header .navigation .menu li{
+    list-style: none;
+}
+
+header .navigation .menu li a{
+    text-decoration: none;
+    color: #080808;
+}
+
+header .navigation .menu li .active{
+    color: #32d296;
+    font-weight: bold;
+}
+
+header .navigation .menu li:hover{
+    border: 1px solid #32d296;
+}
+
+header .navigation .logo{
+    padding-left: 100px;
+}
+
+header .navigation .logo b{
+    color: #32d296;
+}
+
+/* ad */
+
+.container{
+    margin: 20px;
+}
+
+.container .ad{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border: 1px solid #32d296;
+    border-radius: 30px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.container .ad h2{
+    font-size: 30px;
+}
+
+.container .ad p{
+    font-size: 18px;
+    padding: 0 10px 10px 10px;
+}
+
+.container .ad .btn{
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    background: #32d296;
+    margin-bottom: 20px;
+    color: #ffffff;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.container .ad .btn:focus{
+    outline: none;
+}
+
+/* content */
+
+.content{
+    margin: 30px;
+}
+
+.content h3{
+    color: #32d296;
+}
+
+/* footer */
+
+.footer{
+    background: #32d296;
+    color: #080808;
+    padding: 35px;
+}
+
+.text-content{
+    text-align: center;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-content i{
+    margin-right: 20px;
+}
+
+.footer-content .social a{
+    text-decoration: none;
+    color: #080808;
+}
+
+.footer-content .social a:hover{
+    color: #ffffff;
+}
+
+.copyright{
+    text-align: center;
+    padding: 20px;
+}
