@@ -19,7 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43312f8d-6280-48cf-b7a1-c5cbca3a903f" name="Default Changelist" comment="" />
+    <list default="true" id="43312f8d-6280-48cf-b7a1-c5cbca3a903f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/payment.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/payment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/personalAccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/personalAccount.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +82,7 @@
       <workItem from="1594739460037" duration="26000" />
       <workItem from="1594739585889" duration="3021000" />
       <workItem from="1595409020440" duration="2096000" />
-      <workItem from="1595413069957" duration="9229000" />
+      <workItem from="1595413069957" duration="9489000" />
     </task>
     <task id="LOCAL-00001" summary="added git ignore .idea">
       <created>1595420613734</created>
@@ -99,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595431998834</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix">
+      <created>1595432443864</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595432443864</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,7 +132,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added git ignore .idea" />
     <MESSAGE value="added vektor logo" />
-    <option name="LAST_COMMIT_MESSAGE" value="added vektor logo" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595413251160">
@@ -130,9 +144,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1594739483496" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1595432000759">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1595432446956">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1595432000759" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1595432446956" />
   </component>
 </project>
