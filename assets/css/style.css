@@ -47,13 +47,15 @@ header .navigation .menu li:hover{
     border: 1px solid #32d296;
 }
 
+header .navigation .logo img{
+    width: 140px;
+    height: 60px;
+}
+
 header .navigation .logo{
     padding-left: 100px;
 }
 
-header .navigation .logo b{
-    color: #32d296;
-}
 
 /* ad */
 
@@ -69,10 +71,12 @@ header .navigation .logo b{
     border-radius: 30px;
     padding-top: 20px;
     text-align: center;
+    color: #ec2147;
 }
 
 .container .ad h2{
     font-size: 30px;
+    color: #ec2147;
 }
 
 .container .ad p{
