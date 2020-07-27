@@ -20,9 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43312f8d-6280-48cf-b7a1-c5cbca3a903f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/js/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +98,7 @@
       <workItem from="1595790766188" duration="30000" />
       <workItem from="1595846505365" duration="458000" />
       <workItem from="1595847205344" duration="75000" />
-      <workItem from="1595856260123" duration="534000" />
+      <workItem from="1595856260123" duration="650000" />
     </task>
     <task id="LOCAL-00001" summary="added git ignore .idea">
       <created>1595420613734</created>
@@ -145,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595856584998</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fixed header">
+      <created>1595856826174</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1595856826174</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,7 +173,8 @@
     <MESSAGE value="fix" />
     <MESSAGE value="fixed copiright" />
     <MESSAGE value="vektor" />
-    <option name="LAST_COMMIT_MESSAGE" value="vektor" />
+    <MESSAGE value="fixed header" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed header" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#Deployment" timestamp="1595624202556">
@@ -192,10 +197,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1595623998605" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1595856588821">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1595856828716">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1595856588821" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1595856828716" />
     <state x="592" y="349" key="publish.login" timestamp="1595846848756">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
