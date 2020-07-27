@@ -172,9 +172,19 @@ header .navigation .logo{
 
 /* payment */
 
+
 .payment-content{
     display: flex;
     justify-content: center;
+}
+
+.payment-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-form .footnote{
+    font-size: 12px;
 }
 
 .payment{
@@ -197,6 +207,21 @@ header .navigation .logo{
     margin: 3px;
     color: #ffffff;
 }
+
+.payment-form a{
+    width: 200px;
+    height: 50px;
+    background: #32d296;
+    border-radius: 30px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 18px;
+    font-size: 21px;
+    font-weight: bold;
+    margin: auto;
+}
+
+
 
 /* countdoun */
 
