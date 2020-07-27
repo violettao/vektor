@@ -15,35 +15,77 @@
     <div class="heading">
         <div class="uk-container">
             <div class="uk-flex contacts">
-                <i class="fa fa-mobile" aria-hidden="true"> +38 (096) 922 42 69</i>
-                <i class="fa fa-envelope-o" aria-hidden="true"> vektor@com</i>
+                <i class="fa fa-mobile" aria-hidden="true"><a href="tel:+380678481525">+38 (067) 848 15 25</a></i>
+                <i class="fa fa-mobile" aria-hidden="true"><a href="tel:+380978287575"> +38 (097) 828 75 75</a></i>
+                <i class="fa fa-envelope-o" aria-hidden="true"><a href="mailto:suport@vektor.dp.ua">suport@vektor.dp.ua</a></i>
             </div>
         </div>
     </div>
-    <div class="uk-nav-header">
+    <div class="uk-nav-header nav-media">
 
         <nav class="navigation">
             <div class="uk-logo logo">
-                <img src="../assets/img/vektor.png">
+                <a href="../index.html"><img src="../assets/img/vektor.png"></a>
             </div>
             <div class="nav-menu">
                 <ul class="menu">
                     <li>
-                        <a href="../index.html" class="active">Главная</a>
+                        <a href="../index.html">Главная</a>
                     </li>
-                    <li><a href="personalAccount.html">Личный кабинет</a></li>
-                    <li><a href="payment.html">Оплата</a></li>
+                    <li><a href="http://userstats.vektor.lan/">Личный кабинет</a></li>
+                    <li><a href="payment.html" class="active">Оплата</a></li>
                     <li><a href="contacts.html">Контакты</a></li>
                 </ul>
             </div>
         </nav>
     </div>
 </header>
-
-<div class="container">
+<div class="payment-content">
     <div class="payment">
-        <h2>Реквизиты для оплаты</h2>
+        <h3>Реквизиты будут доступны через:</h3>
     </div>
+</div>
+
+
+<!--<div class="container">
+    <div class="payment-content">
+        <div class="payment">
+            <h2>Реквизиты для оплаты</h2>
+            <p>ФОП Справцев В.В.</p>
+            <p>Код отримувача: 3153303679</p>
+            <p>Рахунок в форматі відповідно до стандарту IBAN:</p>
+            <p>UA973057500000026006053540407</p>
+            <p>Назва банку: Криворізька філія АТ КБ "ПриватБанк"</p>
+            <p>Призначення платежу: Особовий рахунок++ПІБ++Місяц</p>
+        </div>
+    </div>
+</div>
+-->
+
+<div class="timer" data-finish="<?=(strtotime('+1 day') * 1000)?>">
+<div class="timer_section">
+    <div class="days_1">0</div>
+    <div class="days_2">0</div>
+    <div class="timer_section_desc">дней</div>
+</div>
+<div class="timer_delimetr">:</div>
+<div class="timer_section">
+    <div class="hours_1">0</div>
+    <div class="hours_2">0</div>
+    <div class="timer_section_desc">часов</div>
+</div>
+<div class="timer_delimetr">:</div>
+<div class="timer_section">
+    <div class="minutes_1">0</div>
+    <div class="minutes_2">0</div>
+    <div class="timer_section_desc">минут</div>
+</div>
+<div class="timer_delimetr">:</div>
+<div class="timer_section">
+    <div class="seconds_1">0</div>
+    <div class="seconds_2">0</div>
+    <div class="timer_section_desc">секунд</div>
+</div>
 </div>
 
 <footer>
@@ -54,13 +96,13 @@
             </div>
             <div class="footer-content">
                 <div class="contacts">
-                    <i class="fa fa-mobile" aria-hidden="true"> +38 (096) 922 42 69</i>
-                    <i class="fa fa-envelope-o" aria-hidden="true"> vektor@com</i>
+                    <i class="fa fa-mobile" aria-hidden="true"><a href="tel:+380678481525">+38 (067) 848 15 25</a></i>
+                    <i class="fa fa-mobile" aria-hidden="true"><a href="tel:+380978287575"> +38 (097) 828 75 75</a></i>
+                    <i class="fa fa-envelope-o" aria-hidden="true"><a href="mailto:suport@vektor.dp.ua">suport@vektor.dp.ua</a></i>
                 </div>
                 <div class="social">
                     <a href="#"><i class="fa fa-telegram fa-lg" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
+                    <a href="#"><img class="viber" src="../assets/img/viber.png"></a>
                 </div>
             </div>
         </div>
@@ -71,9 +113,10 @@
 </footer>
 
 
-<script src="assets/js/uikit-icons.min.js"></script>
-<script src="assets/js/uikit.min.js"></script>
-<script src="assets/js/uikit-core.min.js"></script>
-<script src="assets/js/index.js"></script>
-</body>
+    <script src="../assets/js/uikit-icons.min.js"></script>
+    <script src="../assets/js/uikit.min.js"></script>
+    <script src="../assets/js/uikit-core.min.js"></script>
+    <script src="../assets/js/index.js"></script>
+    <script src="../assets/js/jquery.js"></script>
+</body> 
 </html>

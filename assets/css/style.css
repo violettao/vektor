@@ -5,7 +5,8 @@ header .heading{
 }
 
 header .contacts{
-    justify-content: center;
+    display: flex;
+    justify-content: space-around;
     padding: 20px;
 }
 
@@ -14,9 +15,15 @@ header .contacts i{
     color: #080808;
 }
 
+.contacts i a{
+    color: #080808;
+    padding-left: 10px;
+}
+
 header .navigation{
     display: flex;
     justify-content: space-around;
+    width: 100%;
 }
 
 header .navigation .nav-menu{
@@ -39,12 +46,17 @@ header .navigation .menu li a{
 }
 
 header .navigation .menu li .active{
-    color: #32d296;
+    color: #ffffff;
     font-weight: bold;
+    border: 1px solid #32d296;
+    border-radius: 30px;
+    background: #32d296;
+    padding: 10px;
 }
 
 header .navigation .menu li:hover{
     border: 1px solid #32d296;
+    border-radius: 30px;
 }
 
 header .navigation .logo img{
@@ -116,6 +128,7 @@ header .navigation .logo{
     background: #32d296;
     color: #080808;
     padding: 35px;
+    margin-top: 30px;
 }
 
 .text-content{
@@ -136,11 +149,134 @@ header .navigation .logo{
     color: #080808;
 }
 
-.footer-content .social a:hover{
-    color: #ffffff;
+.footer-content .social a .viber{
+    width: 30px;
+    height: 30px;
+}
+.footer-content .social a .telegram{
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
 }
 
 .copyright{
     text-align: center;
     padding: 20px;
+}
+
+/* payment */
+
+.payment-content{
+    display: flex;
+    justify-content: center;
+}
+
+.payment{
+    text-align: center;
+    border: 1px solid #32d296;
+    border-radius: 35px;
+    width: 500px;
+    padding: 3px;
+    color: #ffffff;
+    background: #32d296;
+    margin: 30px;
+    align-items: center;
+}
+
+.payment h2{
+    color: #ffffff;
+}
+
+.payment h3{
+    margin: 3px;
+    color: #ffffff;
+}
+
+/* countdoun */
+
+
+.timer{
+    font-size: 0;
+    text-align: center;
+}
+.timer_section{
+    display: inline-block;
+    vertical-align: top;
+}
+.timer_section > div{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 50px;
+    background: #32d296;
+    color: #ffffff;
+    line-height: 70px;
+    width: 55px;
+    margin: 0 1px;
+    border-radius: 2px;
+}
+.timer_section > div.timer_section_desc{
+    display: block;
+    background: none;
+    color: inherit;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 30px;
+    width: auto;
+    margin: 0;
+}
+.timer_delimetr{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 50px;
+    line-height: 70px;
+    margin: 0 5px;
+}
+
+
+@media (max-width: 700px) {
+
+   header .navigation .logo{
+        padding-left: 40px;
+        width: 400px;
+        height: 90px;
+    }
+
+   
+    header .contacts{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    header .contacts i{
+        margin-bottom: 15px;
+    }
+
+   header .navigation .nav-menu .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    header .navigation .nav-menu .menu li{
+        margin-bottom: 20px;
+    }
+
+    header .nav-media{
+        text-align: center;
+    }
+
+    header .navigation{
+        justify-content: center;
+    }
+
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-content .social{
+        margin-top: 15px;
+    }
 }
