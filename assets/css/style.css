@@ -263,6 +263,29 @@ header .navigation .logo{
     margin: 0 5px;
 }
 
+/* doc */
+
+.container-doc{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.doc{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    border: 1px solid #32d296;
+    border-radius: 30px;
+    max-width: 300px;
+    margin: auto;
+    padding: 10px;
+}
+
+.doc a{
+    text-decoration: none;
+    color: #000000;
+}
+
 
 @media (max-width: 700px) {
 
