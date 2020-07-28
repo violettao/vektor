@@ -1,0 +1,23 @@
+{
+  "name": "vektor_local",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "liqpay": "^0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/violettao/vektor_local.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/violettao/vektor_local/issues"
+  },
+  "homepage": "https://github.com/violettao/vektor_local#readme"
+}
