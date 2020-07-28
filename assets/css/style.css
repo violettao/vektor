@@ -211,14 +211,18 @@ header .navigation .logo{
 .payment-form a{
     width: 200px;
     height: 50px;
-    background: #32d296;
+    border: 1px solid #32d296;
     border-radius: 30px;
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     padding-top: 18px;
     font-size: 21px;
-    font-weight: bold;
     margin: auto;
+}
+
+.payment-form a:hover{
+    background: #32d296;
+    color: #ffffff;
 }
 
 
@@ -272,18 +276,7 @@ header .navigation .logo{
 
 .doc{
     display: flex;
-    justify-content: center;
-    text-decoration: none;
-    border: 1px solid #32d296;
-    border-radius: 30px;
-    max-width: 300px;
-    margin: auto;
-    padding: 10px;
-}
-
-.doc a{
-    text-decoration: none;
-    color: #000000;
+    justify-content: space-around;
 }
 
 
